@@ -14,6 +14,9 @@
 ### Project Overview
 
 Pizza Sales KPI, Playing the role of a BI Consultant hired by BlackTECH's Pizza, a Canadian-inspired pizza place in Ontario. My team and I been hired to help the restaurant use data to improve operations, Sales, Products and Revenue.
+![Untitled design](https://github.com/Amavin2468/PORTFOLIO/assets/129444110/c5f690d8-e1b4-4fc7-80bf-1690e75f49a2)
+
+
 
 ### Data Source
 
@@ -39,12 +42,22 @@ In the Data preparation phase, We performed the following Tasks:
 ### Data Modeling
 
 1. Created relationships between the different tables, these relationships determine how the data in one table is connected to data in another.
-2. Creating calculated measures using the following DAX formulas:
+![Screenshot 2024-05-28 154839](https://github.com/Amavin2468/PORTFOLIO/assets/129444110/647b504e-115d-4430-a4ea-6dc7933dab39)
+
+
+3. Creating calculated measures using the following DAX formulas:
  - Average Sales = AVERAGEX(order_details,[Total Sales])
  - Total Sales = SUMX(order_details,order_details[quantity]*RELATED(pizzas[price]))
  - Total_Orders = COUNT([quantity])
 
 ### Exploratory Data Analysis
+
+EDA involved exploring the Sales data to answer key questions such as:
+
+
+![Screenshot 2024-05-02 202607](https://github.com/Amavin2468/PORTFOLIO/assets/129444110/e3818bb0-17dd-42c5-956d-a3b607dc22b4)
+
+![Screenshot 2024-05-02 204317](https://github.com/Amavin2468/PORTFOLIO/assets/129444110/6bcdaff8-7b91-4d08-a386-9d77e15d020a)
 
 - What is the Overall sales trend?
 - What is the Overall order trend?
